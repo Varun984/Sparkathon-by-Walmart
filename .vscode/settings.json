@@ -1,0 +1,21 @@
+{
+    "liveServer.settings.port": 5501,
+    "files.associations": {
+        "array": "cpp",
+        "forward_list": "cpp",
+        "iterator": "cpp",
+        "optional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "unordered_map": "cpp",
+        "utility": "cpp",
+        "valarray": "cpp",
+        "exception": "cpp",
+        "numeric": "cpp",
+        "stdexcept": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp"
+    }
+}

@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Walmart-branded design system with theme support */
+
+@layer base {
+  :root {
+    /* Walmart Brand Colors - Light Mode */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 9%;
+
+    /* Walmart True Blue as primary */
+    --primary: 212 100% 40%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Black Squeeze background for cards */
+    --secondary: 212 50% 96%;
+    --secondary-foreground: 0 0% 9%;
+
+    --muted: 212 50% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    /* Walmart Spark Yellow as accent */
+    --accent: 48 100% 56%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 212 100% 40%;
+
+    --success: 120 61% 50%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 9%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark Mode - Mine Shaft & Tundora backgrounds */
+    --background: 0 0% 7%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 13%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 13%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Keep True Blue as primary in dark mode */
+    --primary: 212 100% 40%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Tundora for secondary surfaces */
+    --secondary: 0 0% 27%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 27%;
+    --muted-foreground: 0 0% 65%;
+
+    /* Keep Spark Yellow as accent in dark mode */
+    --accent: 48 100% 56%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 27%;
+    --input: 0 0% 27%;
+    --ring: 48 100% 56%;
+
+    --success: 120 61% 50%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+

@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+clerk-backend-api
+apscheduler
