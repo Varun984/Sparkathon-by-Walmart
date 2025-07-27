@@ -47,3 +47,5 @@ Under the hood?
 Drizzle ORM meets Neon PostgreSQL —
 the fastest, sharpest, cloud-native duo we could find.
 Because performance and sanity should go hand in hand.
+
+Controbution: Added preprocessing and prediction logic for model implementation.
